@@ -1,0 +1,20 @@
+{
+  "name": "nusantara-server",
+  "version": "2.0.0",
+  "description": "Server untuk Grizlie Nusantara: akun, katalog, pesanan, pembayaran, admin",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node test-keamanan.js && node test-fitur.js",
+    "test:keamanan": "node test-keamanan.js",
+    "test:fitur": "node test-fitur.js",
+    "cek": "node cek-produksi.js",
+    "cadangkan": "node cadangkan.js",
+    "uji-beban": "node uji-beban.js"
+  },
+  "engines": {
+    "node": ">=22.13"
+  }
+}
